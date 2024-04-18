@@ -2,7 +2,7 @@
 	"name": "ardour-lua-api",
 	"displayName": "Mixbus/Ardour Lua API",
 	"description": "Adds IntelliSense features for Mixbus/Ardour Lua scripts to VS Code. This extension uses Sumneko's Lua Language Server with EmmyLua annotations.",
-	"version": "0.0.1",
+	"version": "0.8.6",
 	"publisher": "grigor-iliev",
 	"repository": {
 		"type": "git",

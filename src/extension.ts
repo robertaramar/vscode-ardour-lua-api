@@ -16,7 +16,7 @@ export function setExternalLibrary(folder: string, enable: boolean) {
 	const extensionId = "grigor-iliev.ardour-lua-api";
 	const extensionPath = vscode.extensions.getExtension(extensionId)?.extensionPath;
 	// Use path.join to ensure the proper file seperator is used.
-	const folderPath = path.join(extensionPath!, folder, "6.x");
+	const folderPath = path.join(extensionPath!, folder, "8.x");
 
 	const config = vscode.workspace.getConfiguration("Lua");
 	const library: string[] | undefined = config.get("workspace.library");
